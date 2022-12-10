@@ -3,20 +3,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner inp=new Scanner(System.in);
-
-        int sum=0, piece=0;
-        System.out.print("Enter a number: ");
-        int num=inp.nextInt();
-
-        for(int i=1;i<num;i++) {
-            if (i % 12 == 0) {
-                sum += i;
-                piece++;
+        int sum=0,num;
+        do {
+            System.out.print("Enter a number: ");
+            num = inp.nextInt();
+            if(num%4==0)
+            {
+                sum+=num;
             }
-        }
-        int avg=sum/piece;
 
-        System.out.println(avg);
+        }while (num%2==0);
+        System.out.println(sum);
 
     }
 }
