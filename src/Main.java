@@ -26,6 +26,7 @@ public class Main
         }
         System.out.println(nf+" "+rf+" "+nrf);
         last=nf/(rf*nrf);
+
         System.out.println("C("+n+","+r+")="+last);
         //nf=620, rf=24, nrf=2
     }
