@@ -25,7 +25,6 @@ public class Main
             nrf*=i;
         }
         last=nf/(rf*nrf);
-        
         System.out.println("C("+n+","+r+")="+last);
     }
 }
