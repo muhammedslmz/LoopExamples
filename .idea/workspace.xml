@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c68a41c-3bf8-4548-b51f-43ba6d1af0ed" name="Changes" comment="3th example.">
+    <list default="true" id="7c68a41c-3bf8-4548-b51f-43ba6d1af0ed" name="Changes" comment="Factoriel added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -86,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670725693677</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3th example.">
+      <created>1670797665564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670797665564</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Factoriel added.">
+      <created>1670797692988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670797692988</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +118,7 @@
     <MESSAGE value="Division." />
     <MESSAGE value="2. examples" />
     <MESSAGE value="3th example." />
-    <option name="LAST_COMMIT_MESSAGE" value="3th example." />
+    <MESSAGE value="Factoriel added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Factoriel added." />
   </component>
 </project>
