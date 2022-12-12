@@ -4,18 +4,27 @@ public class Main
 {
     public static void main(String[] args)
     {
-       Scanner input=new Scanner(System.in);
-       int z=0;
-       int t = 0;
-        System.out.print("Enter the number whose exponent you want to calculate: ");
-        int x=input.nextInt();
-        System.out.print("Enter the exponent: ");
-        int y =input.nextInt();
-        for (int i=1; z<=y;i*=x)
+        int nf=1,rf=1,nrf=1;
+        int last;
+        Scanner inp =new Scanner(System.in);
+        System.out.print("Enter the number of elements of set: ");
+        int n = inp.nextInt();
+        System.out.print("How many members should the groups have: ");
+        int r= inp.nextInt();
+        for(int i=1; i<=n; i++)
         {
-            t=i;
-            z++;
+            nf*=i;
         }
-        System.out.println(t);
+
+        for(int i=1; i<=r; i++)
+        {
+            rf*=i;
+        }
+        for(int i=1; i<=n-r; i++)
+        {
+            nrf*=i;
+        }
+        last=nf/(rf*nrf);
+        System.out.println("C("+n+","+r+")="+last);
     }
 }
