@@ -5,16 +5,14 @@ public class Main
     public static void main(String[] args)
     {
         Scanner input=new Scanner(System.in);
-        int z=0;
-        int t = 0;
+        int t = 1;
         System.out.print("Enter the number whose exponent you want to calculate: ");
         int x=input.nextInt();
         System.out.print("Enter the exponent: ");
         int y =input.nextInt();
-        for (int i=1; z<=y;i*=x)
+        for (int i=1; i<=y;i++)
         {
-            t=i;
-            z++;
+           t*=x
         }
         System.out.println(x+"^"+y+"= "+t);
     }
